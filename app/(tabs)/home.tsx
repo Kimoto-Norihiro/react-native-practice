@@ -1,9 +1,10 @@
-import { Redirect } from 'expo-router';
 import React from 'react';
 import { View, Text } from 'react-native';
 
 export default function Home() {
   return (
-    <Redirect href="/home"/>
+    <View>
+      <Text>Home</Text>
+    </View>
   );
 }

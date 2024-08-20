@@ -31,7 +31,7 @@ export default function Camera() {
       <CameraView style={styles.container} facing={facing}>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button} onPress={toggleCameraFacing}>
-            <Link href="/" style={styles.text}>Home</Link>
+            <Link href="/home" style={styles.text}>Home</Link>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={toggleCameraFacing}>
             <Text style={styles.text}>Flip</Text>
